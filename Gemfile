@@ -1,32 +1,20 @@
 source 'https://rubygems.org'
 
-# Core gems
-gem 'rails', '3.2.13'
+ruby '1.9.3'
 
-# Database adapters
-gem 'pg'
-
-# Uncomment next line when using MySQL database
-#gem 'mysql2'
-
-# Auth gems
-gem 'devise'
-gem 'cancan'
-
-# Server/transport gems
-gem 'thin'
-gem 'faye'
-
-# Helper gems
-gem 'kaminari'
 gem 'aws-sdk'
-gem 'paperclip'
-gem 'remotipart'
-gem 'jquery-rails'
+gem 'cancan'
+gem 'devise'
 gem 'enumerize'
+gem 'faye'
+gem 'jquery-rails'
+gem 'kaminari'
+gem 'paperclip'
+gem 'pg'
+gem 'rails', '3.2.13'
+gem 'remotipart'
+gem 'thin'
 
-# Gems used only for assets and not required
-# in production environments by default.
 group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
